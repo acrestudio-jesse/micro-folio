@@ -1,0 +1,23 @@
+.tech-section{
+    width: 60rem;
+    margin: 0 auto;
+    margin-bottom: 6rem;
+}
+
+
+.tech-title{
+    font-size: 4.2rem;
+    margin-bottom: 3rem;
+}
+
+.tech-cards{
+    display: grid;
+    grid-template-columns: repeat(4, 6rem);
+    justify-content: space-around;
+    row-gap: 3rem;
+}
+
+.tech-card{
+    border: 2px solid white;
+    padding: 4rem;
+}

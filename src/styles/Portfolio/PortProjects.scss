@@ -1,0 +1,26 @@
+@import "../vars.scss";
+
+.project-section{
+    background:linear-gradient( #fff,#ffffff33);
+    clip-path: polygon(0 20%, 100% 0, 100% 80%, 0 100%);
+    padding: 10rem;
+    color: #222
+}
+
+.project-title{
+    font-size: 4.2rem;
+    margin-bottom: 3rem;
+}
+
+.project-cards{
+@include centerFlex();
+justify-content: space-evenly;
+flex-direction: row;
+gap:3rem;
+font-size: 2.4rem;
+}
+
+.project-card{
+    border: 2px solid #222;
+padding: 10rem 6rem;
+}

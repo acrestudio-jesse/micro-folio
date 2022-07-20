@@ -1,0 +1,25 @@
+.socials-section{
+    background: linear-gradient(#ffffff11, #ffffff00);
+}
+
+.socials-title{
+    font-size: 4.2rem;
+}
+
+.socials-columns{
+    display: grid;
+    grid-template-columns: repeat(2, 8rem);
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.socials-links{
+    font-size: 2rem;
+
+}
+
+.credits{
+    font-size: 1.2rem;
+    font-weight: 300;
+    text-align: left;
+}

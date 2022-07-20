@@ -1,0 +1,15 @@
+.intro {
+  width: 100%;
+  text-align: left;
+  margin: 0 auto;
+  padding: 0 20rem;
+  background: linear-gradient(#000, rgba(0, 0, 0, 0));
+}
+
+.head-hello-msg {
+  font-size: 9rem;
+}
+
+.head-sub-title {
+  font-size: 4.2rem;
+}/*# sourceMappingURL=PortHead.css.map */
