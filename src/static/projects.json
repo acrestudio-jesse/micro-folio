@@ -1,0 +1,28 @@
+{
+  "projects": [
+    {
+      "title": "Task Tracker",
+      "img": "/project-image/taskcrd.png",
+      "liveUrl": "https://jstudio-task-tracker.netlify.app/",
+      "gitUrl": ".com",
+      "description": "First ever app",
+      "tech": ["JavaScript", "CSS", "HTML", "NPM"]
+    },
+    {
+      "title": "Sipr",
+      "img": "/project-image/siprcrd.png",
+      "liveUrl": "https://sipr.netlify.app/",
+      "gitUrl": ".com",
+      "description": "Little drink App",
+      "tech": ["JavaScript", "CSS", "HTML", "NPM", "RESTApi"]
+    },
+    {
+      "title": "JDevBlog",
+      "img": "/project-image/blogcrd.png",
+      "liveUrl": "https://jdevblog.netlify.app/",
+      "gitUrl": ".com",
+      "description": "Simple blog with storage",
+      "tech": ["JavaScript", "CSS", "HTML", "NPM", "FireBase", "React"]
+    }
+  ]
+}

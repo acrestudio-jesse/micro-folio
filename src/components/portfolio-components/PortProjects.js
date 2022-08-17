@@ -1,17 +1,11 @@
-import  "../../styles/Portfolio/PortProjects.css"
+import "../../styles/Portfolio/PortProjects.css";
+import CardContainer from "../project-card/CardContainer";
 
-const PortProjects = () => {
+const PortProjects = ({ projectData }) => {
   return (
     <div className="project-section">
       <h1 className="project-title">Projects</h1>
-      <div className="project-cards">
-        <div className="project-card" >card</div>
-        <div className="project-card" >card</div>
-        <div className="project-card" >card</div>
-        <div className="project-card" >card</div>
-        <div className="project-card" >card</div>
-        
-      </div>
+        <CardContainer projectData={projectData} />
     </div>
   );
 };

@@ -1,0 +1,73 @@
+.cardContainer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  height: 100%;
+}
+
+.overlay {
+  display: inline-block;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  color: transparent;
+  transition: 1s;
+  position: relative;
+}
+
+.overlay:hover {
+  background: linear-gradient(#333, #33333322, #333);
+  color: beige;
+}
+
+.projectTitle{
+  margin-top: 12rem;
+  font-size: 2.4rem;
+}
+
+.urls{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  color:transparent;
+}
+
+.url{
+  color: transparent;
+  text-decoration: none;
+  padding: 3px;
+  font-size: 18px;
+  transition: 1s;
+}
+
+.url:visited{
+  color: transparent;
+}
+
+.overlay:hover .url:visited{
+  color: beige;
+}
+
+.overlay:hover .url{
+  background-color: #222222aa;
+  padding: 3px;
+  border-radius: 5px;
+  color: beige;
+}
+
+.tech {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap-reverse;
+  gap: 10px;
+  border-radius: 5px;
+  bottom: 15rem;
+  left: 10px;
+  font-size: 12px;
+}
+
+.techTag {
+  display: inline;
+}
